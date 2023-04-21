@@ -59,9 +59,9 @@ let words = [
 ];
 // Setting Levels
 const lvls = {
-  Easy: 5,
-  Normal: 3,
-  Hard: 2,
+  Easy: 6,
+  Normal: 4,
+  Hard: 3,
 };
 let selectlvl = document.querySelector(".select-lvl");
 let secondsShow = document.querySelector(".seconds");

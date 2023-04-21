@@ -126,8 +126,7 @@ body {
   padding: 15px;
 }
 .finish .good {
-  color: var(--main-color);
-
+  color: white;
   position: fixed;
   top: 100px;
   left: 50%;

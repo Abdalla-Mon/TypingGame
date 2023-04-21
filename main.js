@@ -59,9 +59,9 @@ let words = [
 ];
 // Setting Levels
 const lvls = {
-  Easy: 9,
-  Normal: 6,
-  Hard: 3,
+  Easy: 5,
+  Normal: 3,
+  Hard: 2,
 };
 let selectlvl = document.querySelector(".select-lvl");
 let secondsShow = document.querySelector(".seconds");
@@ -148,7 +148,7 @@ InstructionDiv.appendChild(span);
 let secSpan = document.createElement("span");
 secSpan.className = "inst-content";
 secSpan.innerHTML = `You have to choose one of the three available Levels :[Easy , Normal ,hard] and then Click start playing,
-each level has a number of seconds shown above for examvle easy level give you 9 seconds , you have to write the word before 
+each level has a number of seconds shown above for examvle easy level give you 5 seconds , you have to write the word before 
 the seconds become zero , if you wrote the 30 words you will win the game else if you missed 
 just one word you will lose , have fun 
 `;

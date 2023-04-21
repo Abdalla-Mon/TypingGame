@@ -127,6 +127,18 @@ body {
 }
 .finish .good {
   color: var(--main-color);
+
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  background-color: #2196f3;
+  width: 100%;
+  padding: 10px;
 }
 .finish .bad {
   color: red;
@@ -134,6 +146,17 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  background-color: #2196f3;
+  width: 100%;
+  padding: 10px;
 }
 .inst {
   display: flex;
